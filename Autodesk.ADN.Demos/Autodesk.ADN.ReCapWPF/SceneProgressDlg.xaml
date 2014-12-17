@@ -1,0 +1,14 @@
+﻿<Window x:Class="Autodesk.ADN.ReCapWPF.SceneProgressDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Photoscene Progress" Height="159" Width="417"
+        Icon="resources/Adsk.ico" ResizeMode="CanMinimize">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Margin="0,0,-6,-4">
+        <Label Content="Scene: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Name="_lbSceneName" Content="Scene Name" HorizontalAlignment="Left" Margin="72,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Progress: " HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label Name="_lbProgress" Content="Scene Progress" HorizontalAlignment="Left" Margin="72,41,0,0" VerticalAlignment="Top"/>
+        <ProgressBar Name="_progressBar" HorizontalAlignment="Left" Height="35" Margin="10,72,0,0" VerticalAlignment="Top" Width="384"/>
+
+    </Grid>
+</Window>

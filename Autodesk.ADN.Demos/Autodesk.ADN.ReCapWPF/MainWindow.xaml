@@ -1,0 +1,38 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Autodesk.ADN.ReCapWPF" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        mc:Ignorable="d" 
+        x:Class="Autodesk.ADN.ReCapWPF.MainWindow"
+        Title="ADN ReCap Demo - WPF" 
+        Height="600" Width="1000"
+        Icon="resources/Adsk.ico">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="345" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <local:TreeViewCtrl  Grid.Row="0" x:Name="TreeViewScenes" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.ColumnSpan="2"/>
+
+        <GridSplitter Grid.Row="1" Height="5" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" />
+
+        <RichTextBox 
+            Grid.Row="2" 
+            x:Name="_logger" 
+            IsReadOnly="True" 
+            Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" 
+            VerticalScrollBarVisibility="Auto">
+            <FlowDocument>
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+</Window>
