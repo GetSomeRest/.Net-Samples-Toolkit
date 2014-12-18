@@ -24,7 +24,7 @@ Building the sample
 
 The sample was created using Visual Studio 2012 Service Pack 1
 
-You first need to modifythe UserSettings.cs file and put your oAuth & ReCap credentials in it.
+You first need to modify the UserSettings.cs file and put your oAuth & ReCap credentials in it.
 	 
 Use of the sample
 -------------------------

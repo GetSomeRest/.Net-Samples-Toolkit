@@ -79,6 +79,7 @@
     <Compile Include="SceneProgressDlg.xaml.cs">
       <DependentUpon>SceneProgressDlg.xaml</DependentUpon>
     </Compile>
+    <None Include="UserSettings_.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
