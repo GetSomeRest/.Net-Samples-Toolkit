@@ -1,9 +1,14 @@
-# Autodesk Reality Capture API -- .NET Sample + Toolkit
---------------------
+This sample is deprecated as there is a new API for ReCap
+=======================
+Go to https://developer.autodesk.com/en/docs/reality-capture/v1/overview/ for more information
+
 [![language](https://img.shields.io/badge/language-C%23-blue.svg)](https://www.visualstudio.com/)
 [![ReCap](https://img.shields.io/badge/Reality%20Capture%20API-v3.1%20-green.svg)](http://developer-recap-autodesk.github.io/)
 ![Platforms](https://img.shields.io/badge/platform-windows-lightgray.svg)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://opensource.org/licenses/MIT)
+
+# Autodesk Reality Capture API -- .NET Sample + Toolkit
+--------------------
 
 <b>Note:</b> For using these samples you need a valid oAuth credential and a ReCap client ID. Visit this [page](http://developer-recap-autodesk.github.io/) for instructions to get on-board.
 
